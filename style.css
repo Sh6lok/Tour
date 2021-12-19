@@ -1,0 +1,266 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+}
+
+h1,h2,h3{
+	margin: 0;
+}
+
+hr{
+	
+	width: 50px;
+}
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+	width: 1300px;
+	padding-top: 50px;
+}
+
+/*Вступление*/
+.logo{
+	width: 80px;
+}
+
+.intro {	
+	display: block;
+	width: 100%;
+	height: 105vh;
+
+	background: url("img/intro.png") 0 0 no-repeat;	
+    background-size: cover;
+	position: relative;
+	min-width: 1374px;
+}
+
+.nav{
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.nav-link{
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-align: right;
+}
+.nav-link:hover{
+	color:#F2F2F2;
+}
+
+.title{
+	max-width: 500px;
+	padding-top: 300px;
+}
+
+.text1{
+
+	text-align: center;
+
+	font-weight: bold;
+	color: #00EAFF;
+	font-family: 'Ubuntu',я-serif;
+	font-size: 40px;
+}
+.btn{
+	margin-top: 100px;
+}
+
+
+
+.btn1{
+
+	color: white;
+	background-color: #00EAFF;
+	padding: 17px;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 70px;
+
+
+	border: 0px solid;
+	text-decoration: none;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 20px;
+
+}
+
+.btn2{
+	color: white;
+	
+	padding: 17px;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 70px;
+
+
+	border: 3px solid white;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.btn1:hover{
+	background-color: #00CEFF;
+	transition: 0.8s;
+}
+.btn2:hover{
+	background-color: #00EAFF;
+	border: #00EAFF;
+	transition: 0.8s;
+}
+
+.sh1{
+	width: 600px;
+	margin-left: 680px;
+	margin-top: 200px;
+	position: absolute;
+}
+
+/*Покупка*/
+
+.buy {
+	background: url(img/bg__2.png) 0 0 no-repeat;
+	background-size: cover;
+	top: 790px;
+	position: absolute;
+	min-width: 1374px;
+	width: 100%;
+	z-index: 999;
+}
+
+.sh2{
+	align-items: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    position: relative;
+    width: 900px;
+    padding-bottom: 500px;	
+}
+.descriprion{
+	color: #00EAFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 23px;
+	position: absolute;
+	
+}
+.descriprion1{
+	padding-left: 100px;
+	display: inline-block;
+	padding-top: 280px;
+}
+.descriprion2{
+	display: inline-block;
+	padding-left: 300px;
+}
+.descriprion3{
+	padding-left: 600px;
+	padding-top: 480px;
+	
+}
+
+.btn-buy{
+	position: absolute;
+	color: white;
+	background-color: #00EAFF;
+	margin-top: 100px;
+
+	padding: 20px;
+	padding-right: 60px;
+	padding-left: 60px;
+	border-radius: 70px;
+
+
+	border: 0px solid;
+	text-decoration: none;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 25px;
+
+}
+.btn-buy:hover{
+	background-color: #00CEFF;
+	transition: 0.8s;
+}
+/*информация*/
+
+.info{
+	background-color: white;
+	background: url(img/bg__3.png) 0 0 no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    margin-top: 600px;
+    min-width: 1374px;
+    max-width: 100%;
+    z-index: 0;
+
+}
+
+.sh3{
+	padding-top: 750px;
+	width:800px;
+	padding-bottom: 200px;
+
+}
+
+.info-text{
+	font-family: 'Ubuntu',sans-serif;
+	color: black;
+	padding-top: 800px;
+	padding-left: 800px;
+	position: absolute;
+	text-align: center;
+}
+
+.info-text1{
+	font-size: 45px;
+}
+.info-text2{
+font-size: 20px;
+}
+
+/*Покупка*/
+.footerbuy{
+	background-color: white;
+	padding-top: 1900px;
+
+}
+
+.sh4{
+	width: 750px;
+}
+
+.buy-text1{
+	padding-top: 30px;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 35px;
+
+	display: inline-block;
+}
+
+.buy-text2{
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 25px;
+}
+
+
+
+.price{
+	margin-right: 40px;
+	display: inline-block;
+	color: red;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 30px;
+}
+
+.stars{
+	margin-left: 600px;
+	display: inline-block;
+}
