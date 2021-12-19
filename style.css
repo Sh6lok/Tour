@@ -132,7 +132,7 @@ hr{
 /*Покупка*/
 
 .buy {
-	background: url(../img/bg__2.png) 0 0 no-repeat;
+	background: url(img/bg__2.png) 0 0 no-repeat;
 	background-size: cover;
 	top: 790px;
 	position: absolute;
@@ -197,7 +197,7 @@ hr{
 
 .info{
 	 background-color: white;
-	 background: url(../img/bg__3.png) 0 0 no-repeat;
+	 background: url(img/bg__3.png) 0 0 no-repeat;
     background-size: cover;
     width: 100%;
     position: absolute;
