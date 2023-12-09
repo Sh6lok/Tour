@@ -20,6 +20,7 @@ body::after{
     pointer-events: none;
     z-index: -1;
     background: url(img/elements/noise.gif);
+    background-size: calc(1000 * 100vw / 1920);
 }
 
 .container{
